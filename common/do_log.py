@@ -12,7 +12,7 @@ import time
 import datetime
 import os
 
-from Common import contants
+from common import contants
 
 if not os.path.exists(contants.log_storage_file): os.mkdir(contants.log_storage_file)  # 如果不存在这个test_result文件夹，就自动创建一个
 

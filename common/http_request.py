@@ -7,8 +7,8 @@
 
 
 import requests
-from Common.config import config
-from Common.do_log import MyLog
+from common.config import config
+from common.do_log import MyLog
 
 
 class HttpRequests_1:

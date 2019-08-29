@@ -7,7 +7,7 @@
 
 
 import pymysql
-from Common.config import config
+from common.config import config
 
 
 class DoMysql:

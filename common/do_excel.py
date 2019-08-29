@@ -7,8 +7,8 @@
 
 
 import openpyxl, sys
-from Common import contants
-from Common.do_log import MyLog
+from common import contants
+from common.do_log import MyLog
 
 
 class Case:
