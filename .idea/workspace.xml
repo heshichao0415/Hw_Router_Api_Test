@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65cf3d33-9016-48ce-ab51-6eda81f53d51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/contants.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/contants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/do_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/do_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/do_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/do_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/do_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/do_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/do_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/do_re.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/http_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/http_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/2019-08-30.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcase/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase/test_getgamebalcklist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcase/test_getgamebalcklist.py" afterDir="false" />
-    </list>
+    <list default="true" id="65cf3d33-9016-48ce-ab51-6eda81f53d51" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +10,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#96#115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/do_db.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Testcase/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -66,6 +42,15 @@
               <folding>
                 <element signature="e#100#113#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pytest.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -169,6 +154,7 @@
         <option value="$PROJECT_DIR$/Common/http_request.py" />
         <option value="$PROJECT_DIR$/Common/do_db.py" />
         <option value="$PROJECT_DIR$/Testcase/conftest.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
       </list>
     </option>
   </component>
@@ -213,6 +199,11 @@
               <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
               <item name="Testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Testdata" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567137929091</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="调整框架：&#10;1.修改路径拼接&#10;2.添加注释&#10;3.修改部分导入">
+      <created>1567145905157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567145905157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -428,7 +426,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -452,12 +449,14 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改框架目录层级" />
     <MESSAGE value="修改框架目录层级-1" />
     <MESSAGE value="演示版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="演示版本" />
+    <MESSAGE value="调整框架：&#10;1.修改路径拼接&#10;2.添加注释&#10;3.修改部分导入" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整框架：&#10;1.修改路径拼接&#10;2.添加注释&#10;3.修改部分导入" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Testcase/test_api.py">
@@ -614,6 +613,13 @@
           <folding>
             <element signature="e#100#113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
     </entry>
