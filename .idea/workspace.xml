@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65cf3d33-9016-48ce-ab51-6eda81f53d51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/HW路由加速方案接口定义v0.2.5-20190826-11.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/HW路由加速方案接口定义v0.2.5-20190826-11.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/case.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/华为接口流程图-20190826.vsdx" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/华为接口流程图-20190826.vsdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/插件需要向华为提供的接口.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/插件需要向华为提供的接口.docx" afterDir="false" />
-    </list>
+    <list default="true" id="65cf3d33-9016-48ce-ab51-6eda81f53d51" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +65,11 @@
               <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -79,7 +78,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testcase" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,11 +110,19 @@
       <option name="project" value="LOCAL" />
       <updated>1567080175582</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改框架目录层级-1">
+      <created>1567128239594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567128239594</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -141,7 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改框架目录层级" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改框架目录层级" />
+    <MESSAGE value="修改框架目录层级-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改框架目录层级-1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testcase/test_api.py">
