@@ -14,7 +14,7 @@ from Common.do_re import DoRe
 
 
 class TestGetGameBlackList:
-    doexcel_ob = DoExcel(contants.case_file, 'GetBlackBlackList')
+    doexcel_ob = DoExcel(contants.case_file, 'sdsdsd')
     log_ob = MyLog(__name__).my_log()
 
     @pytest.mark.parametrize('case', doexcel_ob.get_cases())

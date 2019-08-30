@@ -5,9 +5,8 @@
 # @Function: 正则表达式
 """
 
-
 import re
-from Common.config import config
+from Common.config import ReadConfig
 import configparser
 from Common.do_log import MyLog
 
@@ -25,18 +24,28 @@ def DoRe(data):
     2.根据指定字符获取到配置文件中对应的值
     3.然后进行替换
     """
-    pattern = '#(.*?)#'  # 正则表达式   匹配组当中多次或者最多一次单个字符
+    # 正则表达式   匹配组当中多次或者最多一次单个字符
+    pattern = '#(.*?)#'
 
     while re.search(pattern, data):
-        search = re.search(pattern, data)  # 从任意位置开始找，找第一个就返回Match object, 如果没有找None
 
-        group = search.group(1)  # 拿到参数化的KEY
+        # 从任意位置开始找，找第一个就返回Match object, 如果没有找None
+        search = re.search(pattern, data)
+
+        # 拿到参数化的KEY
+        group = search.group(1)
 
         try:
-            value = config.get_value('data', group)  # 根据KEY取配置文件里面的值
+            # 根据KEY取配置文件里面的值
+            value = ReadConfig().get_value('data', group)
+
         except configparser.NoOptionError as e:  # 如果配置文件里面没有的时候，去do_re模块中类Context里面取
-            if hasattr(Context, group):  # 判断类属性名是否在Context中
-                value = getattr(Context, group)  # 获取类属性值
+
+            # 判断类属性名是否在Context中
+            if hasattr(Context, group):
+
+                # 获取类属性值
+                value = getattr(Context, group)
             else:
                 MyLog(__name__).my_log().error('找不到参数化的值。报错：{}'.format(e))
                 raise e
@@ -44,12 +53,13 @@ def DoRe(data):
         """
         记得替换后的内容，继续用data接收
         """
-        data = re.sub(pattern, value, data, count=1)  # 查找替换,count查找替换的次数
+
+        # 查找替换,count查找替换的次数
+        data = re.sub(pattern, value, data, count=1)
 
     return data
 
 
 if __name__ == '__main__':
     pass
-    # a = DoRe('{"id":"#534564#","status":4}')
-    # print(a)
+

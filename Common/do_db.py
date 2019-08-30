@@ -5,9 +5,10 @@
 # @Function: 完成数据库的读取
 """
 
-
 import pymysql
-from Common.config import config
+from Common.config import ReadConfig
+
+config = ReadConfig()
 
 
 class DoMysql:
@@ -21,6 +22,7 @@ class DoMysql:
     """
 
     def __init__(self):
+        # 设置连接数据库的参数，还是从配置文件读取
         self.mysql = pymysql.connect(host=config.get_value('testdb', 'host'),
                                      port=int(config.get_value('testdb', 'port')),
                                      user=config.get_value('testdb', 'user'),
@@ -28,20 +30,26 @@ class DoMysql:
                                      db=config.get_value('testdb', 'db'),
                                      charset=config.get_value('testdb', 'charset'))
 
-        # self.cursor = self.mysql.cursor(cursor=pymysql.cursors.DictCursor)  # 查询的数据以键值对返回
+        # 查询的数据以键值对返回
+        # self.cursor = self.mysql.cursor(cursor=pymysql.cursors.DictCursor)
 
-        self.cursor = self.mysql.cursor()  # 查询的数据以元组返回
+        # 查询的数据以元组返回
+        self.cursor = self.mysql.cursor()
+
+        # 匹配一条数据
 
     def fetch_one(self, sql):
         self.cursor.execute(sql)
         self.mysql.commit()
         return self.cursor.fetchone()
 
+    # 匹配所有数据
     def fetch_all(self, sql):
         self.cursor.execute(sql)
         self.mysql.commit()
         return self.cursor.fetchall()
 
+    # 关闭数据库
     def close(self):
         self.cursor.close()
         self.mysql.close()

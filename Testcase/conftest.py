@@ -6,7 +6,7 @@
 """
 
 import pytest
-from Common.http_request import HttpRequests_1
+from Common.http_request import HttpRequests
 from Common.do_log import MyLog
 
 log_ob = MyLog(__name__).my_log()
@@ -15,7 +15,7 @@ log_ob = MyLog(__name__).my_log()
 @pytest.fixture(scope="class")
 def before_after_request():
     log_ob.info("--------------------开始执行用例--------------------")
-    request_ob = HttpRequests_1()
+    request_ob = HttpRequests()
     yield request_ob
     request_ob.close()
     log_ob.info("--------------------用例执行完毕--------------------")

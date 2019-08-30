@@ -4,8 +4,6 @@
 # @File    : do_excel.py
 # @Function: 完成excel的读和写
 """
-
-
 import openpyxl, sys
 from Common import contants
 from Common.do_log import MyLog
@@ -38,20 +36,33 @@ class DoExcel:
     4.这种方式是ddt数据驱动中以类属性来接收数据
     """
 
+    # 初始化文件名和表单名，表示：实例化DoExcel的时候必须传file_name和sheet_name
     def __init__(self, file_name, sheet_name):
+
         self.file_name = file_name
         self.sheet_name = sheet_name
+
+        # excle文件不存在，或者文件路径不正确就抛出异常，提高程序健壮性
         try:
             self.workbook = openpyxl.load_workbook(self.file_name)
         except Exception as e:
-            MyLog(__name__).my_log().error('出错啦！没有这样的文件或目录，或者文件路径不正确。报错：{}'.format(e))
-            sys.exit()  # 出错了就停止运行程序
-        self.sheet = self.workbook[self.sheet_name]
+            MyLog(__name__).my_log().error('出错啦！！！！！！excle文件不存在，或者文件路径不正确。报错：{}'.format(e))
+
+        # 表单名错误时抛出异常，提高程序健壮性
+        try:
+            self.sheet = self.workbook[self.sheet_name]
+        except Exception as e:
+            MyLog(__name__).my_log().error('出错啦！！！！！！excel的表单名错误。报错：{}'.format(e))
 
     def get_cases(self):
-        cases = []  # 列表，存放所有的测试用例
+        """
+        1.从ecxel第二行开始读取，没一行的数据存储到一个Case类属性中
+        2.把类属性实例化，然后把Case对象存储到一个列表中，方便数据驱动
+        :return: 返回一个列表，列表中存储Case类的对象
+        """
+        cases = []
         for row in range(2, self.sheet.max_row + 1):
-            case = Case()  # 实例
+            case = Case()
             case.case_id = self.sheet.cell(row=row, column=1).value
             case.case_name = self.sheet.cell(row=row, column=2).value
             case.method = self.sheet.cell(row=row, column=3).value
@@ -60,9 +71,12 @@ class DoExcel:
             case.expected = self.sheet.cell(row=row, column=6).value
             case.sql = self.sheet.cell(row=row, column=9).value
             cases.append(case)
+
+        # 关闭excel
         self.workbook.close()
         return cases
 
+    # 回写数据到excel第7列和第8列，如有需要可以进行添加
     def write_case(self, row, actual, result):
         sheet = self.workbook[self.sheet_name]
         sheet.cell(row, 7).value = actual
@@ -71,6 +85,11 @@ class DoExcel:
         self.workbook.close()
 
 
+"""
+下面两个方法：
+Doexcel_2是把每一行的数据存储在一个列表中
+Doexcel_3是把数据存在在字典中
+"""
 # class Doexcel_2:
 #     """
 #     第二种存储数据的方法：
@@ -153,6 +172,9 @@ class DoExcel:
 
 
 if __name__ == '__main__':
-    a=DoExcel(contants.case_file,"GetBlackBlackList")
-    b=a.get_cases()
-    print(b)
+    a = DoExcel(contants.case_file, "GetBlackBlackList")
+    b = a.get_cases()
+    print(b[0].case_id)
+    print(b[0].case_name)
+    print(b[0].method)
+

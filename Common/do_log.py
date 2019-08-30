@@ -6,16 +6,20 @@
 """
 
 import logging
-from logging.handlers import RotatingFileHandler  # 按文件大小滚动备份
-import colorlog  # 控制台日志输入颜色
+# 按文件大小滚动备份
+from logging.handlers import RotatingFileHandler
+# 控制台日志输入颜色
+import colorlog
 import time
 import datetime
 import os
 
 from Common import contants
 
-if not os.path.exists(contants.log_storage_file): os.mkdir(contants.log_storage_file)  # 如果不存在这个test_result文件夹，就自动创建一个
+# 如果不存在这个test_result文件夹，就自动创建一个
+if not os.path.exists(contants.log_storage_file): os.mkdir(contants.log_storage_file)
 
+# 报错信息设置成黄色，方便查看排查报错原因
 log_colors_config = {
     'WARNING': 'yellow',
     'ERROR': 'yellow',
@@ -43,21 +47,37 @@ class MyLog:
 
     def handle_logs(self):
         """处理日志过期天数和文件数量"""
-        dir_list = ['Logs']  # 要删除文件的目录名
+
+        # 要删除文件的目录名
+        dir_list = ['Logs']
         for dir in dir_list:
-            dirPath = os.path.abspath(os.path.dirname(os.path.dirname(__file__))) + '\\' + dir  # 拼接删除目录完整路径
-            file_list = self.get_file_sorted(dirPath)  # 返回按修改时间排序的文件list
-            if file_list:  # 目录下没有日志文件
+
+            # 拼接删除目录完整路径
+            dirPath = os.path.abspath(os.path.dirname(os.path.dirname(__file__))) + '\\' + dir
+
+            # 返回按修改时间排序的文件list
+            file_list = self.get_file_sorted(dirPath)
+
+            # 目录下没有日志文件
+            if file_list:
                 for i in file_list:
-                    file_path = os.path.join(dirPath, i)  # 拼接文件的完整路径
+
+                    # 拼接文件的完整路径
+                    file_path = os.path.join(dirPath, i)
                     t_list = self.TimeStampToTime(os.path.getctime(file_path)).split('-')
                     now_list = self.TimeStampToTime(time.time()).split('-')
+
+                    # 将时间转换成datetime.datetime 类型
                     t = datetime.datetime(int(t_list[0]), int(t_list[1]),
-                                          int(t_list[2]))  # 将时间转换成datetime.datetime 类型
+                                          int(t_list[2]))
                     now = datetime.datetime(int(now_list[0]), int(now_list[1]), int(now_list[2]))
-                    if (now - t).days > 6:  # 创建时间大于6天的文件删除
+
+                    # 创建时间大于6天的文件删除
+                    if (now - t).days > 6:
                         self.delete_logs(file_path)
-                if len(file_list) > 4:  # 限制目录下记录文件数量
+
+                # 限制目录下记录文件数量
+                if len(file_list) > 4:
                     file_list = file_list[0:-4]
                     for i in file_list:
                         file_path = os.path.join(dirPath, i)
@@ -74,18 +94,19 @@ class MyLog:
         logger = logging.getLogger(self.log_name)
         logger.setLevel("DEBUG")
 
+        # 日志输出格式
         formatter_fh = logging.Formatter(
             '%(asctime)s - %(name)s -  %(filename)s : %(lineno)d - %(levelname)s - %(message)s')
-
         formatter_ch = colorlog.ColoredFormatter(
             '%(log_color) s%(asctime)s - %(name)s - %(filename)s : %(lineno)d - %(levelname)s- %(message)s',
-            log_colors=log_colors_config)  # 日志输出格式
+            log_colors=log_colors_config)
 
         self.handle_logs()
 
         # 创建一个FileHandler，用于写到本地
+        # 使用RotatingFileHandler类，滚动备份日志
         fh = RotatingFileHandler(filename=contants.log_file, mode='a', maxBytes=1024 * 1024 * 5, backupCount=5,
-                                 encoding='utf-8')  # 使用RotatingFileHandler类，滚动备份日志
+                                 encoding='utf-8')
         fh.setLevel("DEBUG")
         fh.setFormatter(formatter_fh)
         logger.addHandler(fh)
