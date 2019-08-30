@@ -12,7 +12,7 @@ import time
 import datetime
 import os
 
-from common import contants
+from Common import contants
 
 if not os.path.exists(contants.log_storage_file): os.mkdir(contants.log_storage_file)  # 如果不存在这个test_result文件夹，就自动创建一个
 
@@ -43,7 +43,7 @@ class MyLog:
 
     def handle_logs(self):
         """处理日志过期天数和文件数量"""
-        dir_list = ['Testresult']  # 要删除文件的目录名
+        dir_list = ['Logs']  # 要删除文件的目录名
         for dir in dir_list:
             dirPath = os.path.abspath(os.path.dirname(os.path.dirname(__file__))) + '\\' + dir  # 拼接删除目录完整路径
             file_list = self.get_file_sorted(dirPath)  # 返回按修改时间排序的文件list

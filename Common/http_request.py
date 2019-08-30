@@ -7,8 +7,8 @@
 
 
 import requests
-from common.config import config
-from common.do_log import MyLog
+from Common.config import config
+from Common.do_log import MyLog
 
 
 class HttpRequests_1:
@@ -52,34 +52,35 @@ class HttpRequests_1:
         self.session.close()
 
 
-class HttpRequests_2:
-    """
-    1.通过http_request方法来完成http请求，并得到返回结果
-    2.不同对象中，cookies不共享，需要自己传递cookies
-    """
-
-    def http_request(self, method, url, data=None, json=None, cookies=None):
-
-        if type(data) == str:
-            data = eval(data)
-
-        # 拼接url地址
-        url = config.get_value('api', 'base_url') + url
-
-        if method.upper() == 'GET':
-            resp = requests.get(url, params=data, cookies=cookies)
-        elif method.upper() == 'POST':
-            if json is not None:  # 或者 if json:
-                resp = requests.post(url, json=data, cookies=cookies)
-            else:
-                resp = requests.post(url, data=data, cookies=cookies)
-        else:
-            return 'Unsupport method'
-
-        return resp
+# class HttpRequests_2:
+#     """
+#     1.通过http_request方法来完成http请求，并得到返回结果
+#     2.不同对象中，cookies不共享，需要自己传递cookies
+#     """
+#
+#     def http_request(self, method, url, data=None, json=None, cookies=None):
+#
+#         if type(data) == str:
+#             data = eval(data)
+#
+#         # 拼接url地址
+#         url = config.get_value('api', 'base_url') + url
+#
+#         if method.upper() == 'GET':
+#             resp = requests.get(url, params=data, cookies=cookies)
+#         elif method.upper() == 'POST':
+#             if json is not None:  # 或者 if json:
+#                 resp = requests.post(url, json=data, cookies=cookies)
+#             else:
+#                 resp = requests.post(url, data=data, cookies=cookies)
+#         else:
+#             return 'Unsupport method'
+#
+#         return resp
 
 
 if __name__ == '__main__':
-    pass
+    a=HttpRequests_1()
+    b=a.http_request('post','/api/v1/xyhw/GetBlackBlackLIst',{})
 
 

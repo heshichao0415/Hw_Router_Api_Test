@@ -1,12 +1,12 @@
 """
 # @Time    : 2019/8/29 19:28
 # @Author  : 谢超
-# @File    : config.py
+# @File    : Conf.py
 # @Function: 配置文件的读取
 """
 
 import configparser
-from common import contants
+from Common import contants
 
 
 class ReadConfig:

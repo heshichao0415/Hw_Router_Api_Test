@@ -1,0 +1,29 @@
+2019-08-30 11:46:31,006 - __main__ -  do_log.py : 106 - DEBUG - ---测试开始----
+2019-08-30 11:46:31,006 - __main__ -  do_log.py : 107 - INFO - 操作步骤
+2019-08-30 11:46:31,006 - __main__ -  do_log.py : 108 - WARNING - ----测试结束----
+2019-08-30 11:46:31,006 - __main__ -  do_log.py : 109 - ERROR - ----测试错误----
+2019-08-30 11:48:25,664 - __main__ -  do_log.py : 106 - DEBUG - ---测试开始----
+2019-08-30 11:48:25,664 - __main__ -  do_log.py : 107 - INFO - 操作步骤
+2019-08-30 11:48:25,664 - __main__ -  do_log.py : 108 - WARNING - ----测试结束----
+2019-08-30 11:48:25,665 - __main__ -  do_log.py : 109 - ERROR - ----测试错误----
+2019-08-30 11:58:55,700 - Common.do_excel -  do_excel.py : 48 - ERROR - 出错啦！没有这样的文件或目录，或者文件路径不正确。也有可能是sheet名称错误。报错：'Worksheet add does not exist.'
+2019-08-30 11:59:16,280 - Common.do_excel -  do_excel.py : 48 - ERROR - 出错啦！没有这样的文件或目录，或者文件路径不正确。也有可能是sheet名称错误。报错：'Worksheet add does not exist.'
+2019-08-30 11:59:56,681 - Common.do_excel -  do_excel.py : 48 - ERROR - 出错啦！没有这样的文件或目录，或者文件路径不正确。也有可能是sheet名称错误。报错：'Worksheet add does not exist.'
+2019-08-30 12:00:35,518 - conftest -  conftest.py : 17 - INFO - --------------------开始执行用例--------------------
+2019-08-30 12:00:35,519 - test_getgamebalcklist -  test_getgamebalcklist.py : 22 - DEBUG - 第 1 条用例
+2019-08-30 12:00:35,519 - test_getgamebalcklist -  test_getgamebalcklist.py : 23 - DEBUG - 用例名称：正常获取游戏黑名单
+2019-08-30 12:00:35,520 - Common.http_request -  http_request.py : 35 - DEBUG - 请求的方式：POST
+2019-08-30 12:00:35,520 - Common.http_request -  http_request.py : 36 - DEBUG - 请求的地址：118.123.165.10:9090/api/v1/xyhw/GetBlackBlackLIst
+2019-08-30 12:00:35,520 - Common.http_request -  http_request.py : 37 - DEBUG - 请求的数据：{'userid': 5454, 'gameId': 456, 'time': '564564654', 'sign': '64564564564654TJKJ'}
+2019-08-30 12:00:35,677 - test_getgamebalcklist -  test_getgamebalcklist.py : 22 - DEBUG - 第 2 条用例
+2019-08-30 12:00:35,677 - test_getgamebalcklist -  test_getgamebalcklist.py : 23 - DEBUG - 用例名称：userid为空
+2019-08-30 12:00:35,684 - conftest -  conftest.py : 21 - INFO - --------------------用例执行完毕--------------------
+2019-08-30 12:02:11,929 - __main__ -  http_request.py : 35 - DEBUG - 请求的方式：post
+2019-08-30 12:02:11,929 - __main__ -  http_request.py : 36 - DEBUG - 请求的地址：118.123.165.10:9090118.123.165.10:9090/api/v1/xyhw/GetBlackBlackLIst
+2019-08-30 12:02:11,929 - __main__ -  http_request.py : 37 - DEBUG - 请求的数据：{}
+2019-08-30 12:02:27,724 - __main__ -  http_request.py : 35 - DEBUG - 请求的方式：post
+2019-08-30 12:02:27,724 - __main__ -  http_request.py : 36 - DEBUG - 请求的地址：118.123.165.10:9090/api/v1/xyhw/GetBlackBlackLIst
+2019-08-30 12:02:27,725 - __main__ -  http_request.py : 37 - DEBUG - 请求的数据：{}
+2019-08-30 12:02:36,142 - __main__ -  http_request.py : 35 - DEBUG - 请求的方式：post
+2019-08-30 12:02:36,142 - __main__ -  http_request.py : 36 - DEBUG - 请求的地址：118.123.165.10:9090/api/v1/xyhw/GetBlackBlackLIst
+2019-08-30 12:02:36,142 - __main__ -  http_request.py : 37 - DEBUG - 请求的数据：{}

@@ -7,9 +7,9 @@
 
 
 import re
-from common.config import config
+from Common.config import config
 import configparser
-from common.do_log import MyLog
+from Common.do_log import MyLog
 
 
 class Context:
