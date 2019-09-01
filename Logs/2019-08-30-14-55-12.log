@@ -1,9 +1,0 @@
-2019-08-30 14:55:13,143 - conftest -  conftest.py : 17 - INFO - --------------------开始执行用例--------------------
-2019-08-30 14:55:13,145 - test_getgamebalcklist -  test_getgamebalcklist.py : 22 - DEBUG - 第 1 条用例
-2019-08-30 14:55:13,145 - test_getgamebalcklist -  test_getgamebalcklist.py : 23 - DEBUG - 用例名称：正常获取游戏黑名单
-2019-08-30 14:55:13,146 - Common.http_request -  http_request.py : 35 - DEBUG - 请求的方式：POST
-2019-08-30 14:55:13,146 - Common.http_request -  http_request.py : 36 - DEBUG - 请求的地址：118.123.165.10:9090/api/v1/xyhw/GetBlackBlackLIst
-2019-08-30 14:55:13,146 - Common.http_request -  http_request.py : 37 - DEBUG - 请求的数据：{'userid': 5454, 'gameId': 456, 'time': '564564654', 'sign': '64564564564654TJKJ'}
-2019-08-30 14:55:13,304 - test_getgamebalcklist -  test_getgamebalcklist.py : 22 - DEBUG - 第 2 条用例
-2019-08-30 14:55:13,304 - test_getgamebalcklist -  test_getgamebalcklist.py : 23 - DEBUG - 用例名称：userid为空
-2019-08-30 14:55:13,314 - conftest -  conftest.py : 21 - INFO - --------------------用例执行完毕--------------------

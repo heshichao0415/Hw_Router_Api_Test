@@ -1,0 +1,14 @@
+2019-08-31 16:39:44,195 - conftest -  conftest.py : 17 - INFO - --------------------开始执行用例--------------------
+2019-08-31 16:39:44,197 - Login_st -  Login_st.py : 13 - DEBUG - 第 1 条用例
+2019-08-31 16:39:44,197 - Login_st -  Login_st.py : 14 - DEBUG - 用例名称：获取短信验证码（正确流程）
+2019-08-31 16:39:44,208 - Common.http_request -  http_request.py : 35 - DEBUG - 请求的方式：post
+2019-08-31 16:39:44,208 - Common.http_request -  http_request.py : 36 - DEBUG - 请求的地址：http://twork.zhanye.api.youxin.info:44752/api/v/1.0/auth/sms_codes
+2019-08-31 16:39:44,209 - Common.http_request -  http_request.py : 37 - DEBUG - 请求的数据：{'mobile': '15882438611'}
+2019-08-31 16:39:44,694 - Common.http_request -  http_request.py : 49 - INFO - 返回的结果：{"code":200,"message":"success","timestamp":1567240783,"once":"tExfen","data":{"code":1234}}
+2019-08-31 16:39:44,769 - Login_st -  Login_st.py : 13 - DEBUG - 第 2 条用例
+2019-08-31 16:39:44,770 - Login_st -  Login_st.py : 14 - DEBUG - 用例名称：不传入参数
+2019-08-31 16:39:44,770 - Common.http_request -  http_request.py : 35 - DEBUG - 请求的方式：post
+2019-08-31 16:39:44,770 - Common.http_request -  http_request.py : 36 - DEBUG - 请求的地址：http://twork.zhanye.api.youxin.info:44752/api/v/1.0/auth/sms_codes
+2019-08-31 16:39:44,770 - Common.http_request -  http_request.py : 37 - DEBUG - 请求的数据：{}
+2019-08-31 16:39:44,840 - Common.http_request -  http_request.py : 49 - INFO - 返回的结果：{"code":422,"message":"\u7535\u8bdd\u53f7\u7801\u4e0d\u80fd\u4e3a\u7a7a"}
+2019-08-31 16:39:44,899 - conftest -  conftest.py : 21 - INFO - --------------------用例执行完毕--------------------

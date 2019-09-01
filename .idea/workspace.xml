@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65cf3d33-9016-48ce-ab51-6eda81f53d51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/2019-08-30-14-55-12.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/local.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/local.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/2019-08-30-13-25-16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/2019-08-30-13-40-58.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/do_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/do_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conf/test.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Conf/test.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/2019-08-30-13-41-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/2019-08-30-13-43-25.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/2019-08-30-14-08-39.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/2019-08-30-14-55-12.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Testcase/test_getgamebalcklist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcase/test_getgamebalcklist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testdata/case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Testdata/case.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +20,86 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Hw_Router_Api_Test$pytest_in_Login_st_py.coverage" NAME="pytest in Login_st.py Coverage Results" MODIFIED="1567240781962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
+    <SUITE FILE_PATH="coverage/Hw_Router_Api_Test$pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist.coverage" NAME="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist Coverage Results" MODIFIED="1567241632293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/do_db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#98#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/do_excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1826">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="e#103#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/do_log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/do_re.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+              <folding>
+                <element signature="e#95#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/http_request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1026">
+              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+              <folding>
+                <element signature="e#105#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Testcase/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding>
+                <element signature="e#100#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Testcase/test_getgamebalcklist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="3" />
               <folding>
                 <element signature="e#115#134#0" expanded="true" />
               </folding>
@@ -33,19 +108,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
+        <entry file="file://$PROJECT_DIR$/Testcase/GetNodeList_st.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="288">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/do_excel.py">
+        <entry file="file://$PROJECT_DIR$/Testcase/GetGameList_st.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2075">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="363">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding>
+                <element signature="e#105#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Testcase/GetRouteList_st.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding>
+                <element signature="e#105#118#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,22 +173,27 @@
         <option value="$PROJECT_DIR$/common/do_excel.py" />
         <option value="$PROJECT_DIR$/Common/config.py" />
         <option value="$PROJECT_DIR$/Common/contants.py" />
-        <option value="$PROJECT_DIR$/Common/do_excel.py" />
-        <option value="$PROJECT_DIR$/Common/do_log.py" />
         <option value="$PROJECT_DIR$/Common/do_re.py" />
         <option value="$PROJECT_DIR$/Common/http_request.py" />
         <option value="$PROJECT_DIR$/Common/do_db.py" />
         <option value="$PROJECT_DIR$/Testcase/conftest.py" />
-        <option value="$PROJECT_DIR$/Testcase/test_getgamebalcklist.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/pyte1st.ini" />
         <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/Testcase/test_getgamebalcklist.py" />
+        <option value="$PROJECT_DIR$/Conf/test.conf" />
+        <option value="$PROJECT_DIR$/Common/do_excel.py" />
+        <option value="$PROJECT_DIR$/Common/do_log.py" />
+        <option value="$PROJECT_DIR$/Testcase/Login_st.py" />
+        <option value="$PROJECT_DIR$/Testcase/GetGameList_st.py" />
+        <option value="$PROJECT_DIR$/Testcase/GetNodeList_st.py" />
+        <option value="$PROJECT_DIR$/Testcase/GetRouteList_st.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="133" />
-    <option name="width" value="1623" />
+    <option name="x" value="110" />
+    <option name="width" value="1640" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -103,27 +201,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
@@ -135,20 +219,15 @@
               <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
               <item name="Testcase" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Hw_Router_Api_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hw_Router_Api_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Testdata" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -169,29 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_getgamebalcklist.py">
-    <configuration name="contants" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="local" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/contants.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for Testcase.GetNodeList_st.TestGetGameBlackList.test_getgameblacklist">
     <configuration name="do_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="local" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,26 +271,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="do_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for Testcase.GetNodeList_st.TestGetGameBlackList.test_getgameblacklist" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="local" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/do_log.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Testcase.GetNodeList_st.TestGetGameBlackList.test_getgameblacklist&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_getgamebalcklist.TestGetGameBlackList" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -250,6 +301,22 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_getgamebalcklist.TestGetGameBlackList&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in GetNodeList_st.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="local" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Testcase/GetNodeList_st.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_getgamebalcklist.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -270,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for Testcase.GetNodeList_st.TestGetGameBlackList.test_getgameblacklist" />
+        <item itemvalue="Python tests.pytest in GetNodeList_st.py" />
+        <item itemvalue="Python.do_excel" />
         <item itemvalue="Python tests.pytest in test_getgamebalcklist.py" />
         <item itemvalue="Python tests.pytest for test_getgamebalcklist.TestGetGameBlackList" />
-        <item itemvalue="Python.do_log" />
-        <item itemvalue="Python.do_excel" />
-        <item itemvalue="Python.contants" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +355,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567079922017</updated>
+      <workItem from="1567239394012" duration="3017000" />
     </task>
     <task id="LOCAL-00001" summary="修改框架目录层级">
       <created>1567080175582</created>
@@ -324,65 +392,80 @@
       <option name="project" value="LOCAL" />
       <updated>1567145905157</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dfghj">
+      <created>1567148328891</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567148328891</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_getgamebalcklist_py - 2019.08.30 at 12h 00m 35s.xml">
-      <configuration name="pytest in test_getgamebalcklist.py" configurationId="tests" />
+    <history-entry file="pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist - 2019.08.30 at 18h 38m 41s.xml">
+      <configuration name="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_getgamebalcklist_py - 2019.08.30 at 13h 16m 01s.xml">
-      <configuration name="pytest in test_getgamebalcklist.py" configurationId="tests" />
+    <history-entry file="pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist - 2019.08.30 at 18h 39m 43s.xml">
+      <configuration name="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_getgamebalcklist_py - 2019.08.30 at 13h 22m 33s.xml">
-      <configuration name="pytest in test_getgamebalcklist.py" configurationId="tests" />
+    <history-entry file="pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist - 2019.08.30 at 18h 40m 23s.xml">
+      <configuration name="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_getgamebalcklist_py - 2019.08.30 at 13h 40m 59s.xml">
-      <configuration name="pytest in test_getgamebalcklist.py" configurationId="tests" />
+    <history-entry file="pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist - 2019.08.30 at 18h 42m 56s.xml">
+      <configuration name="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_getgamebalcklist_py - 2019.08.30 at 13h 41m 21s.xml">
-      <configuration name="pytest in test_getgamebalcklist.py" configurationId="tests" />
+    <history-entry file="pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist - 2019.08.30 at 18h 43m 56s.xml">
+      <configuration name="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_getgamebalcklist_py - 2019.08.30 at 13h 43m 26s.xml">
-      <configuration name="pytest in test_getgamebalcklist.py" configurationId="tests" />
+    <history-entry file="pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist - 2019.08.31 at 16h 23m 12s.xml">
+      <configuration name="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_getgamebalcklist_py - 2019.08.30 at 14h 50m 19s.xml">
-      <configuration name="pytest in test_getgamebalcklist.py" configurationId="tests" />
+    <history-entry file="pytest_in_Login_st_py - 2019.08.31 at 16h 39m 45s.xml">
+      <configuration name="pytest in Login_st.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_getgamebalcklist_TestGetGameBlackList - 2019.08.30 at 14h 51m 42s.xml">
-      <configuration name="pytest for test_getgamebalcklist.TestGetGameBlackList" configurationId="tests" />
+    <history-entry file="pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist - 2019.08.31 at 16h 44m 18s.xml">
+      <configuration name="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_getgamebalcklist_py - 2019.08.30 at 14h 52m 02s.xml">
-      <configuration name="pytest in test_getgamebalcklist.py" configurationId="tests" />
+    <history-entry file="pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist - 2019.08.31 at 16h 49m 54s.xml">
+      <configuration name="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_getgamebalcklist_py - 2019.08.30 at 14h 53m 00s.xml">
-      <configuration name="pytest in test_getgamebalcklist.py" configurationId="tests" />
+    <history-entry file="pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist - 2019.08.31 at 16h 53m 55s.xml">
+      <configuration name="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="661000" />
+    <option name="totallyTimeSpent" value="13457000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25603217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.415437" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20254958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23496027" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
@@ -394,17 +477,18 @@
     <MESSAGE value="修改框架目录层级-1" />
     <MESSAGE value="演示版本" />
     <MESSAGE value="调整框架：&#10;1.修改路径拼接&#10;2.添加注释&#10;3.修改部分导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整框架：&#10;1.修改路径拼接&#10;2.添加注释&#10;3.修改部分导入" />
+    <MESSAGE value="dfghj" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfghj" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Hw_Router_Api_Test$do_excel.coverage" NAME="do_excel Coverage Results" MODIFIED="1567161013878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Hw_Router_Api_Test$pytest_in_test_getgamebalcklist_py.coverage" NAME="pytest in test_getgamebalcklist.py Coverage Results" MODIFIED="1567148263341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
+    <SUITE FILE_PATH="coverage/Hw_Router_Api_Test$pytest_for_Login_st_TestGetGameBlackList_test_getgameblacklist.coverage" NAME="pytest for Login_st.TestGetGameBlackList.test_getgameblacklist Coverage Results" MODIFIED="1567161834559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
     <SUITE FILE_PATH="coverage/Hw_Router_Api_Test$pytest_for_test_getgamebalcklist_TestGetGameBlackList.coverage" NAME="pytest for test_getgamebalcklist.TestGetGameBlackList Coverage Results" MODIFIED="1567147901934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
+    <SUITE FILE_PATH="coverage/Hw_Router_Api_Test$pytest_in_Login_st_py.coverage" NAME="pytest in Login_st.py Coverage Results" MODIFIED="1567161307968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testcase" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Testcase/test_api.py" />
-    <entry file="file://$PROJECT_DIR$/Reports/报告文件">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Logs/日志文件" />
     <entry file="file://$PROJECT_DIR$/Testresult/api_test.log" />
     <entry file="file://$PROJECT_DIR$/Testcase/test_add.py" />
@@ -412,66 +496,6 @@
     <entry file="file://$PROJECT_DIR$/Logs/2019-08-30 13" />
     <entry file="file://$PROJECT_DIR$/Logs/2019-08-30-13-24-01.log" />
     <entry file="file://$PROJECT_DIR$/../Python37/Lib/configparser.py" />
-    <entry file="file://$PROJECT_DIR$/Common/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#96#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/contants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/creat_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/do_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#98#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/do_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-          <folding>
-            <element signature="e#91#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/do_re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="63" column="8" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-          <folding>
-            <element signature="e#96#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/http_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#106#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -482,65 +506,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/_pytest/config/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/pluggy/hooks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="288" selection-start-line="288" selection-end-line="288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/pluggy/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/py/_vendored_packages/iniconfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testcase/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#100#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/_pytest/config/__init__.py" />
+    <entry file="file://C:/Python36/Lib/site-packages/pluggy/hooks.py" />
+    <entry file="file://C:/Python36/Lib/site-packages/pluggy/manager.py" />
+    <entry file="file://C:/Python36/Lib/site-packages/py/_vendored_packages/iniconfig.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conf/test.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conf/staging.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conf/global.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -551,33 +527,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini" />
+    <entry file="file://$PROJECT_DIR$/Conf/test.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/2019-08-30-18-40-22.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/2019-08-30-18-42-55.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/2019-08-30-18-43-55.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="105" lean-forward="true" selection-start-line="5" selection-start-column="105" selection-end-line="5" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#96#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/contants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/creat_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/do_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#98#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Common/do_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="-1826">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#103#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
+    <entry file="file://$PROJECT_DIR$/Common/do_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="46" lean-forward="true" selection-end-line="2" selection-end-column="46" />
+        <state relative-caret-position="275">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
+    <entry file="file://$PROJECT_DIR$/Common/do_re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+          <folding>
+            <element signature="e#95#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conf/global.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/报告文件">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/http_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+          <folding>
+            <element signature="e#105#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testcase/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#100#113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Testcase/test_getgamebalcklist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="e#115#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testcase/GetGameList_st.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="e#105#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testcase/GetNodeList_st.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testcase/GetRouteList_st.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#105#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
